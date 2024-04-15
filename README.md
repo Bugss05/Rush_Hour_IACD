@@ -61,7 +61,7 @@ qual é a orientação (0=H)?
 ```
 qual é a cor?
 ```
-cor de [3,13] (tamanho 2) [14,18] (tamanho 4)
+cor de [3,13], 2 se for o carro vermelho (tamanho 2) [14,18] (tamanho 3)
 
 >Se não estiver familiarizado com o conceito de `cabeça do carro` por favor consultar o ficheiro da decomentação do problema
  
