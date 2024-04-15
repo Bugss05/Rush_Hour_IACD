@@ -63,7 +63,7 @@ qual é a cor?
 ```
 cor de [3,13] (tamanho 2) [14,18] (tamanho 4)
 
->Se nao estiver familiarizado com o conceito de cabeça do carro por favor consultar o ficheiro da decomentação do problema
+>Se não estiver familiarizado com o conceito de `cabeça do carro` por favor consultar o ficheiro da decomentação do problema
  
 ******
 
