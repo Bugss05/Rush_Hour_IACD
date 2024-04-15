@@ -17,7 +17,7 @@ O projeto foi proposto na cadeira de Elementos de Inteligência Artificial e Ci�
 
 Existe um diretório [/Game](/Game) que consiste num interface simples dos problemas bem como a implementação gráfica dos Algoritmos de Pesquisa progamados. A página inicial contem os programas de construção das estatísticas. <br>As estatísticas completas estão no ficheiro excel [Stats.xlsx](Stats.xlsx)
 
->Para aceder à decomentação competa e formalização do problema por favor abrir o ficheiro [Rush_Hour_Documentacao.docx](Rush_Hour_Documentacao.docx)
+>Para aceder à decomentação competa e formalização do problema por favor abrir o ficheiro [Rush Hour_Documentacao.docx](Rush Hour_Documentacao.docx)
 
 
 ## Como fazer o download e utilizar o interface  
