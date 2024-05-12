@@ -8,16 +8,16 @@ Trabalho realizado por:
 
 ******
 ### PROJETO 
-O projeto foi proposto na cadeira de Elementos de Inteligência Artificial e Ciência de Dados (ano 1) e tem como objetivo apresentar, analisar e implementar uma inteligência artificial (IA) capaz de resolver o jogo "Rush Hour", de acordo com vários algoritmos já conhecidos, avaliando métricas como o tempo de execução e a quantidade de nós expandidos, no sentido de definir qual o algoritmo mais ótimo para este jogo.:<br>
+O projeto foi proposto na cadeira de Elementos de Inteligência Artificial e Ciência de Dados (ano 1) e tem como objetivo apresentar, analisar e implementar uma inteligência artificial (IA) capaz de resolver o jogo "Rush Hour", de acordo com vários algoritmos já conhecidos, avaliando métricas como o tempo de execução e a quantidade de nós expandidos, no sentido de definir qual o algoritmo mais ótimo para este jogo:<br>
 
 *  Depth-First Search (DFS)
 * Breadth-First Search (BFS)
 * A*
 * Iterative Deepening Search (IDS)
 
-Existe um diretório [/Game](/Game) que consiste num interface simples dos problemas bem como a implementação gráfica dos Algoritmos de Pesquisa progamados. A página inicial contem os programas de construção das estatísticas. <br>As estatísticas completas estão no ficheiro excel [Stats.xlsx](Stats.xlsx)
+Existe um diretório [/Game](/Game) que consiste num interface simples dos problemas bem como a implementação gráfica dos Algoritmos de Pesquisa progamados. A página inicial contém os programas de construção das estatísticas. <br>As estatísticas completas estão no ficheiro excel [Stats.xlsx](Stats.xlsx)
 
->Para aceder à decomentação competa e formalização do problema por favor abrir o ficheiro [Rush_Hour_Documentacao.docx](Rush_Hour_Documentacao.docx)
+>Para aceder à documentação competa e formalização do problema por favor abrir o ficheiro [Rush_Hour_Documentacao.docx](Rush_Hour_Documentacao.docx)
 
 
 ## Como fazer o download e utilizar o interface  
@@ -43,7 +43,7 @@ python3 rush_hour.py
 ## Como utilizar ficheiros
 
 #### Criar problemas 
-No ficheiro [builder_de_problemas.py](builder_de_problemas.py) pode criar qualquer problema. Evite repetir números de problemas ja existentes e considere comparar a matriz criada no ficheiro [problemas.txt](problemas.txt) para confirmar a correspondencia do input dado.<br>Cada carro tem as seguintes perguntas 
+No ficheiro [builder_de_problemas.py](builder_de_problemas.py) pode criar qualquer problema. Evite repetir números de problemas ja existentes e considere comparar a matriz criada no ficheiro [problemas.txt](problemas.txt) para confirmar a correspondência do input dado.<br>Cada carro tem as seguintes perguntas 
 
 
 ``` 
@@ -63,7 +63,7 @@ qual é a cor?
 ```
 cor de [3,13], 2 se for o carro vermelho (tamanho 2) [14,18] (tamanho 3)
 
->Se não estiver familiarizado com o conceito de `cabeça do carro` por favor consultar o ficheiro da decomentação do problema
+>Se não estiver familiarizado com o conceito de `cabeça do carro` por favor consultar o ficheiro da documentação do problema
  
 ******
 
