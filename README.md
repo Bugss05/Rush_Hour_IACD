@@ -8,27 +8,27 @@ Trabalho realizado por:
 
 ******
 ### SOBRE O PROJETO 
-No primeiro ano da Licenciatura em Inteligência Artificial e Ciência de Dados, na Faculdade de Ciências da Universidade do Porto, ficamos encarregues de desenvolver uma AI que fosse capaz de resolver o jogo de tabuleiro single player, neste caso, Rush Hour. O objetivo deste projeto era o dessevolvimento algorítimico de diferentes métodos de pesquisa, avaliando entre si métricas como o tempo de execução `(Time Complexity)` e a quantidade de nós expandidos `(Space Complexity)`, em busca do método mais ótimo para a resoulação de qualquer posição resolvível do tabuleiro :<br>
+No primeiro ano da Licenciatura em Inteligência Artificial e Ciência de Dados, na Faculdade de Ciências da Universidade do Porto, ficamos encarregues de desenvolver uma AI que fosse capaz de resolver um jogo de tabuleiro single player, neste caso, o Rush Hour. O objetivo deste projeto é o desenvolvimento algorítimico de diferentes métodos de pesquisa, avaliando entre si algumas métricas como o tempo de execução `(Time Complexity)` e a quantidade de nós expandidos `(Space Complexity)`, em busca do método mais ótimo para a resolução de qualquer posição resolvível do tabuleiro. Eis os métodos de pesquisa:<br>
 
 * Depth-First Search (DFS)
 * Breadth-First Search (BFS)
-* A*
+* A Star (A*)
 * Iterative Deepening Search (IDS)
 
-Nesta página, existe um diretório [/Game](/Game) que localiza uma interface simples dos problemas bem como a implementação gráfica dos Algoritmos de Pesquisa progamados, dos quais `BFS`, `DFS`, `IDS`, `A*`. A página inicial contém os programas de construção das estatísticas. <br>As estatísticas completas estão no ficheiro excel [Stats.xlsx](Stats.xlsx)
+Nesta página, existe um diretório [/Game](/Game) que salvaguarda uma interface simples dos problemas bem como a implementação gráfica dos Algoritmos de Pesquisa progamados, dos quais `BFS`, `DFS`, `IDS`, `A*`. A página inicial contém os programas de construção das estatísticas. <br>As estatísticas completas estão no ficheiro excel [Stats.xlsx](Stats.xlsx)
 
->Para aceder à documentação competa e formalização do problema, deve por favor abrir o ficheiro [Rush_Hour_Documentacao.docx](Rush_Hour_Documentacao.docx)
+>Para aceder à documentação completa e formalização do problema, deve por favor abrir o ficheiro [Rush_Hour_Documentacao.docx](Rush_Hour_Documentacao.docx)
 
 
-## Como fazer o download e utilizar o interface  
-#### Primeiro passo 
-Extraia o .zip da página github e descomprimir o ficheiro
-#### Segundo passo 
+## Como fazer o download e utilizar a interface  
+#### Primeiro passo:
+Extraia o .zip da página github e descomprima o ficheiro
+#### Segundo passo: 
 Instale `numpy` no diretório pelo terminal 
 ```
 pip install numpy
 ```
-#### Terceiro passo **IMPORTANTE** 
+#### Terceiro passo: **IMPORTANTE** 
 Entre no diretório do ficheiro rush_hour.py pelo terminal (no folder [/Game](/Game)) 
 ```
 cd (diretório da pasta)
@@ -40,10 +40,10 @@ python3 rush_hour.py
 ```
 *****
 
-## Como utilizar ficheiros
+## Sobre a utilização de ficheiros
 
 #### Criar problemas 
-Caso queira criar novos problemas para que a AI os resolva, basta abrir o seguinte programa [builder_de_problemas.py](builder_de_problemas.py). Para o bom funcionamento do programa, evite repetir os números dos problemas já existentes `(1-80)` e, para verificação da correta imputação do problema, considere comparar a sua matriz criada no ficheiro [problemas.txt](problemas.txt) para confirmar a correspondência do input dado.<br>Ao executar o ficheiro [builder_de_problemas.py](builder_de_problemas.py), deve seguir as seguintes diretrizes como atenta o seguinte exemplo:
+Caso queira criar novos problemas para que a AI os resolva, basta abrir o seguinte programa [builder_de_problemas.py](builder_de_problemas.py). Para o bom funcionamento do programa, evite repetir os números dos problemas já existentes `(1-80)` e, para verificar a correta imputação do problema, considere comparar a sua matriz criada no ficheiro [problemas.txt](problemas.txt).<br>Ao executar o ficheiro [builder_de_problemas.py](builder_de_problemas.py), deve seguir as seguintes diretrizes como atenta o seguinte exemplo:
 
 
 ``` 
