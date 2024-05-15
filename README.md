@@ -7,7 +7,7 @@ Trabalho realizado por:
 * Miguel Carvalho (FCUP_IACD:202305229)
 
 ******
-### ABOUT THE PROJECT 
+### SOBRE O PROJETO 
 No primeiro ano da Licenciatura em Inteligência Artificial e Ciência de Dados, na Faculdade de Ciências da Universidade do Porto, ficamos encarregues de desenvolver uma AI que fosse capaz de resolver o jogo de tabuleiro single player, neste caso, Rush Hour. O objetivo deste projeto era o dessevolvimento algorítimico de diferentes métodos de pesquisa, avaliando entre si métricas como o tempo de execução `(Time Complexity)` e a quantidade de nós expandidos `(Space Complexity)`, em busca do método mais ótimo para a resoulação de qualquer posição resolvível do tabuleiro :<br>
 
 * Depth-First Search (DFS)
