@@ -15,7 +15,7 @@ No primeiro ano da Licenciatura em Inteligência Artificial e Ciência de Dados,
 * A Star (A*)
 * Iterative Deepening Search (IDS)
 
-Nesta página, existe um diretório [/Game](/Game) que salvaguarda uma interface simples dos problemas bem como a implementação gráfica dos Algoritmos de Pesquisa progamados, dos quais `BFS`, `DFS`, `IDS`, `A*`. A página inicial contém os programas de construção das estatísticas. <br>As estatísticas completas estão no ficheiro excel [Stats.xlsx](Stats.xlsx)
+Nesta página, existe um diretório [/Game](/Game) que salvaguarda uma interface simples dos problemas bem como a implementação gráfica dos Algoritmos de Pesquisa progamados. A página inicial contém os programas de construção das estatísticas. <br>As estatísticas completas estão no ficheiro excel [Stats.xlsx](Stats.xlsx)
 
 >Para aceder à documentação completa e formalização do problema, deve por favor abrir o ficheiro [Rush_Hour_Documentacao.docx](Rush_Hour_Documentacao.docx)
 
