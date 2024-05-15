@@ -7,34 +7,34 @@ Trabalho realizado por:
 * Miguel Carvalho (FCUP_IACD:202305229)
 
 ******
-### PROJETO 
-O projeto foi proposto na cadeira de Elementos de Inteligência Artificial e Ciência de Dados (ano 1) e tem como objetivo apresentar, analisar e implementar uma inteligência artificial (IA) capaz de resolver o jogo "Rush Hour", de acordo com vários algoritmos já conhecidos, avaliando métricas como o tempo de execução e a quantidade de nós expandidos, no sentido de definir qual o algoritmo mais ótimo para este jogo:<br>
+### ABOUT THE PROJECT 
+No primeiro ano da Licenciatura em Inteligência Artificial e Ciência de Dados, na Faculdade de Ciências da Universidade do Porto, ficamos encarregues de desenvolver uma AI que fosse capaz de resolver o jogo de tabuleiro single player, neste caso, Rush Hour. O objetivo deste projeto era o dessevolvimento algorítimico de diferentes métodos de pesquisa, avaliando entre si métricas como o tempo de execução `(Time Complexity)` e a quantidade de nós expandidos `(Space Complexity)`, em busca do método mais ótimo para a resoulação de qualquer posição resolvível do tabuleiro :<br>
 
-*  Depth-First Search (DFS)
+* Depth-First Search (DFS)
 * Breadth-First Search (BFS)
 * A*
 * Iterative Deepening Search (IDS)
 
-Existe um diretório [/Game](/Game) que consiste num interface simples dos problemas bem como a implementação gráfica dos Algoritmos de Pesquisa progamados. A página inicial contém os programas de construção das estatísticas. <br>As estatísticas completas estão no ficheiro excel [Stats.xlsx](Stats.xlsx)
+Nesta página, existe um diretório [/Game](/Game) que localiza uma interface simples dos problemas bem como a implementação gráfica dos Algoritmos de Pesquisa progamados, dos quais `BFS`, `DFS`, `IDS`, `A*`. A página inicial contém os programas de construção das estatísticas. <br>As estatísticas completas estão no ficheiro excel [Stats.xlsx](Stats.xlsx)
 
->Para aceder à documentação competa e formalização do problema por favor abrir o ficheiro [Rush_Hour_Documentacao.docx](Rush_Hour_Documentacao.docx)
+>Para aceder à documentação competa e formalização do problema, deve por favor abrir o ficheiro [Rush_Hour_Documentacao.docx](Rush_Hour_Documentacao.docx)
 
 
 ## Como fazer o download e utilizar o interface  
 #### Primeiro passo 
-Extrair o .zip da página github e descomprimir o ficheiro
+Extraia o .zip da página github e descomprimir o ficheiro
 #### Segundo passo 
-Instalar `numpy` no diretório pelo terminal 
+Instale `numpy` no diretório pelo terminal 
 ```
 pip install numpy
 ```
 #### Terceiro passo **IMPORTANTE** 
-Entrar no diretório do ficheiro rush_hour.py pelo terminal (no folder [/Game](/Game)) 
+Entre no diretório do ficheiro rush_hour.py pelo terminal (no folder [/Game](/Game)) 
 ```
 cd (diretório da pasta)
 ```
 #### Quarto passo 
-Correr o programa 
+Corra o programa 
 ```
 python3 rush_hour.py
 ```
@@ -43,7 +43,7 @@ python3 rush_hour.py
 ## Como utilizar ficheiros
 
 #### Criar problemas 
-No ficheiro [builder_de_problemas.py](builder_de_problemas.py) pode criar qualquer problema. Evite repetir números de problemas ja existentes e considere comparar a matriz criada no ficheiro [problemas.txt](problemas.txt) para confirmar a correspondência do input dado.<br>Cada carro tem as seguintes perguntas 
+Caso queira criar novos problemas para que a AI os resolva, basta abrir o seguinte programa [builder_de_problemas.py](builder_de_problemas.py). Para o bom funcionamento do programa, evite repetir os números dos problemas já existentes `(1-80)` e, para verificação da correta imputação do problema, considere comparar a sua matriz criada no ficheiro [problemas.txt](problemas.txt) para confirmar a correspondência do input dado.<br>Ao executar o ficheiro [builder_de_problemas.py](builder_de_problemas.py), deve seguir as seguintes diretrizes como atenta o seguinte exemplo:
 
 
 ``` 
@@ -63,9 +63,9 @@ qual é a cor?
 ```
 cor de [3,13], 2 se for o carro vermelho (tamanho 2) [14,18] (tamanho 3)
 
->Se não estiver familiarizado com o conceito de `cabeça do carro` por favor consultar o ficheiro da documentação do problema
+>Se não estiver familiarizado com o conceito de `cabeça do carro` por favor consultar o ficheiro da documentação do problema.
  
 ******
 
 #### Utilizar os métodos de pesquisa 
-Escolher um dos 4 ficheiros de pesquisa e  depois escolher um número do problema. A sua respetiva resolução estará presente no ficheiro [output.txt](output.txt) e as suas estatísticas no [estatisticas.txt](estatisticas.txt) 
+Deve escolher um dos 4 ficheiros de pesquisa e, posteriormente, eleger o número do problema a resolver. A sua respetiva resolução estará presente no ficheiro [output.txt](output.txt) e as suas estatísticas no [estatisticas.txt](estatisticas.txt).
