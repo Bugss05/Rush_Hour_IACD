@@ -5,7 +5,7 @@ Trabalho realizado por:
 * Afonso Coelho (FCUP_IACD:202305085)
 * Diogo Amaral (FCUP_IACD:202305187) 
 * Miguel Carvalho (FCUP_IACD:202305229)
-  <div style="padding: 10px;padding-left:5%">
+<div style="padding: 10px;padding-left:5%">
 <img src="fotos_md/Cienciasporto.png" style="float:left; height:75px;width:200px">
 <img src="fotos_md/Feuporto.png" style="float:left ; height:75px; padding-left:20px;width:200px">
 </div>
